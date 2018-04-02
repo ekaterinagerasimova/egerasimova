@@ -1,5 +1,5 @@
 /**
- *Отдельный пакет для задания Calculate
+ *РћС‚РґРµР»СЊРЅС‹Р№ РїР°РєРµС‚ РґР»СЏ Р·Р°РґР°РЅРёСЏ Calculate
  *@author egerasimova (evgerasimova13@gmail.com)
  *@version $Id$
  *since 05.12.2017

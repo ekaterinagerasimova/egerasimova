@@ -1,15 +1,15 @@
 package ru.job4j;
 
 /**
- *Class Calculate создание первой программы
+ *Class Calculate СЃРѕР·РґР°РЅРёРµ РїРµСЂРІРѕР№ РїСЂРѕРіСЂР°РјРјС‹
  *@author egerasimova
  *@since 26.11.2017
 */
 	public class Calculate {
 
 /**
- *Выводим на экран приветствие
- *@return Результат, строка
+ *Р’С‹РІРѕРґРёРј РЅР° СЌРєСЂР°РЅ РїСЂРёРІРµС‚СЃС‚РІРёРµ
+ *@return Р РµР·СѓР»СЊС‚Р°С‚, СЃС‚СЂРѕРєР°
 */
 		public static void main(String[] args) {
 			System.out.println("Hello, World!");
