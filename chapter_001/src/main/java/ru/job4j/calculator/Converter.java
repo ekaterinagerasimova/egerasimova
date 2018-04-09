@@ -47,15 +47,4 @@ public class Converter {
         this.value = value * e;
         return this.value;
     }
-    public static void main(String[]args) {
-        Converter converter = new Converter();
-        int a = 180;
-        int b = 490;
-        int c = 10;
-
-        converter.rubleToEuro(b);
-        converter.rubleToDollar(a);
-        converter.euroToRuble(c);
-        converter.dollarToRuble(c);
-    }
 }
