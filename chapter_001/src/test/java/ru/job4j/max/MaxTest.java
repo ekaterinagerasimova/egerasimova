@@ -13,7 +13,7 @@ public class MaxTest {
     @Test
     public void whenFirstMoreThanSecondAndThird() {
         Max maxim = new Max();
-        int result = maxim.max(3, 2, 1);
+        int result = maxim.maxThree(3, 2, 1);
         assertThat(result, is(3));
     }
 
