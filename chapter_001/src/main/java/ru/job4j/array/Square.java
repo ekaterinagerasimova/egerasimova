@@ -12,7 +12,7 @@ public class Square {
 
         for (int i = 0; i != rst.length; i++) {
             rst[i] = i + 1;
-            rst[i] = (int)Math.pow(rst[i], 2);
+            rst[i] = (int) Math.pow(rst[i], 2);
         }
         return rst;
     }
