@@ -22,15 +22,12 @@ public class ArrayChar {
     public boolean startWith(String prefix) {
         boolean result = true;
         char[] value = prefix.toCharArray();
-        // проверить. что массив data имеет первые элементы одинаковые с value
-         int i = 0;
-            for (int j = 0; j < value.length; j++) {
-                if (value[j] == data[i]) {
-                    i++;
-                } else {
-                    result = false;
-                }
+        for (int j = 0; j < value.length; j++) {
+            if (value[j] != data[j]) {
+                result = false;
+                break;
             }
+        }
         return result;
     }
 }

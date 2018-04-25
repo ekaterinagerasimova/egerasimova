@@ -18,4 +18,10 @@ public class ArrayCharTest {
         boolean result = word.startWith("Hi");
         assertThat(result, is(false));
     }
+    @Test
+    public void whenStartWithPetPrefixThenTrue() {
+        ArrayChar word = new ArrayChar("Peter");
+        boolean result = word.startWith("Pet");
+        assertThat(result, is(true));
+    }
 }
